@@ -1,3 +1,10 @@
+
+const isLoggedIn = localStorage.getItem("finscoutLoggedIn");
+
+if (isLoggedIn !== "true") {
+    window.location.href = "login.html";
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     const bestBankCard = document.getElementById('best-bank-card');
     const comparisonList = document.getElementById('comparison-list');
