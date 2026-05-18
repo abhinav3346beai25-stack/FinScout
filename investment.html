@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investments Simulator</title>
+    
+    <link rel="stylesheet" href="index.css">
+
+
+    <link rel="stylesheet" href="investment.css">
+</head>
+
+<body class="minimal-light">
+
+    <!-- Soft Pastel Mesh Background for Premium Feel -->
+    <div class="mesh-bg"></div>
+
+    <nav class="pure-nav">
+        <div class="nav-content">
+            <a href="index.html" class="logo">FinScout</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="banks.html">Banks</a>
+                <a href="investment.html" class="active">Calculator</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="viewport-wrapper">
+        <div class="split-layout">
+
+            <!-- LEFT PANEL: INPUTS & CONTROLS -->
+            <div class="glass-panel panel-left">
+                <div class="pl-header">
+                    <h1>Wealth Simulator</h1>
+                    <p>Best bank recommendation based on highest return and lowest risk.</p>
+                </div>
+
+                <div class="input-blocks">
+                    <div class="block">
+                        <label id="amount-label">Investment Amount (₹)</label>
+                        <div class="input-line">
+                            <span class="currency-prefix">₹</span>
+                            <input type="number" id="amount-input" value="100000" min="2" max="100000000">
+                        </div>
+                    </div>
+
+                    <div class="block">
+                        <label>Tenure (Years)</label>
+                        <div class="input-line">
+                            <input type="number" id="tenure-input" value="5" min="1" max="30">
+                            <span class="suffix">Yrs</span>
+                        </div>
+                    </div>
+
+                    <div class="block">
+                        <label>Asset Class</label>
+                        <div class="pill-group">
+                            <label class="asset-tab active"><input type="radio" name="inv-type" value="fd"
+                                    checked>FD</label>
+                            <label class="asset-tab"><input type="radio" name="inv-type" value="rd">RD</label>
+                            <label class="asset-tab"><input type="radio" name="inv-type" value="mf">MF</label>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RIGHT PANEL: DYNAMIC RESULTS -->
+            <div class="glass-panel panel-right">
+                <div class="pr-content">
+                    <h4 class="pr-title">Top Recommendation</h4>
+
+                    <div id="best-bank-card">
+                        <!-- Instantly populated by JS -->
+                    </div>
+
+                    <h4 class="pr-title" style="margin-top:35px;">Comparisons</h4>
+
+                    <div class="comp-scroll" id="comparison-list">
+                        <!-- Instantly populated by JS -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="single-line-footer">
+        &copy; 2026 FinScout. All Rights Reserved.
+    </footer>
+
+    <script src="investment.js"></script>
+</body>
+
+</html>

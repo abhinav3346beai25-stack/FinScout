@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canara Bank - Together We Prosper</title>
+    <link rel="stylesheet" href="canara.css">
+
+</head>
+
+<body>
+
+    <header class="sticky-header">
+
+        <div class="back-btn-wrapper">
+            <a href="#" onclick="goBack(); return false;" class="back-btn">
+                &larr; Back
+            </a>
+        </div>
+
+
+        <div class="container header-container">
+            <div class="logo-area">
+                <img src="imgcl.jpeg" alt="Canara Bank Logo" class="logo-image">
+            </div>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#about">Our Heritage</a></li>
+                    <li><a href="#programs">Investments</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <script>
+    function goBack() {
+    if (history.length > 1) {
+        history.back();
+    } else {
+        window.location.href = "banks.html";
+    }
+}
+    </script>
+    <main>
+
+        <div class="top-separator"></div>
+
+        <section id="about" class="about-section">
+            <div class="container about-container">
+                <div class="about-image-wrapper">
+                    <img src="canarahq.jpeg" alt="Canara Bank HQ" class="about-image">
+                </div>
+
+                <div class="about-content">
+                    <span class="section-subtitle">Together We Prosper</span>
+                    <h2 class="section-title">Public Sector Banking <br>With Modern Touch.</h2>
+                    <p>
+                        Founded in 1906, <strong>Canara Bank</strong> has been serving the nation for over a century. As
+                        a leading public sector bank, we combine government-backed security with innovative digital
+                        solutions.
+                    </p>
+                    <p>
+                        With **3,200+ branches** and modern platforms like <strong>Canara ONE app</strong>, we bring
+                        convenient banking to every corner of India. Specializing in MSME lending, agriculture finance,
+                        and retail wealth products.
+                    </p>
+                    <p>
+                        Canara Bank continues our commitment to financial inclusion while offering competitive products
+                        for wealth creation and protection.
+                    </p>
+
+                    <div class="stats-row">
+                        <div class="stat-item">
+                            <h3>3,200+</h3>
+                            <span>Branches</span>
+                        </div>
+                        <div class="stat-item">
+                            <h3>4,500+</h3>
+                            <span>ATMs</span>
+                        </div>
+                        <div class="stat-item">
+                            <h3>100 Mn+</h3>
+                            <span>Customers</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="separator-container">
+            <div class="separator-line"></div>
+        </div>
+
+        <section id="programs" class="programs-section">
+            <div class="container">
+                <div class="programs-header">
+                    <span class="section-subtitle">Inclusive Growth Solutions</span>
+                    <h2 class="section-title">Investment Portfolio</h2>
+                    <p class="section-desc">Secure products with public sector reliability and competitive market
+                        returns.</p>
+                </div>
+
+                <div class="cards-grid">
+
+                    <div class="program-card">
+                        <div class="card-content">
+                            <div class="card-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+                                </svg>
+                            </div>
+                            <h3 class="card-title">Canara Robeco MF</h3>
+                            <p class="card-desc">Joint venture with Japan's Sumitomo Mitsui. Emerging Leader, Bluechip,
+                                and Flexicap funds for growth.</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="info-row">
+                                <span class="info-label">AUM</span>
+                                <span class="info-value highlight">₹90,000 Cr+</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-label">SIP Min</span>
+                                <span class="info-value">₹500</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-label">Risk</span>
+                                <span class="info-value risk-moderate">Moderate</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="program-card">
+                        <div class="card-content">
+                            <div class="card-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M6 3v15a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1z" />
+                                    <path d="M6 8h6" />
+                                    <path d="M6 12h8" />
+                                </svg>
+                            </div>
+                            <h3 class="card-title">Fixed Deposits</h3>
+                            <p class="card-desc">Secure returns with additional interest for senior citizens. Flexible
+                                tenures and easy digital opening.</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="info-row">
+                                <span class="info-label">Interest</span>
+                                <span class="info-value highlight">Up to 6.75%*</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-label">Senior Rate</span>
+                                <span class="info-value">+0.50%</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-label">Risk</span>
+                                <span class="info-value risk-low">Zero</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="program-card">
+                        <div class="card-content">
+                            <div class="card-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                                </svg>
+                            </div>
+                            <h3 class="card-title">Monthly Income Scheme</h3>
+                            <p class="card-desc">Regular monthly income through post-maturity interest payout. Ideal for
+                                retirees.</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="info-row">
+                                <span class="info-label">Payout</span>
+                                <span class="info-value highlight">Monthly</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-label">Tenure</span>
+                                <span class="info-value">1-10 Years</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-label">Risk</span>
+                                <span class="info-value risk-low">Low</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Canara Bank. All rights reserved. <br><small>&copy;2026 Finscout All rights reserved.Bank
+                    interest rate data shown on this website is collected from the officail websites of the respective
+                    banks. </small></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

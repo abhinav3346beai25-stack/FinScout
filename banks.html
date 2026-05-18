@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinScout - Banking & Investments</title>
+    
+    <link rel="stylesheet" href="banks.css">
+    <script src="banks.js"></script>
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">FinScout<span></span></div>
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="banks.html" class="active">Banks</a>
+            <a href="login.html">Investments</a>
+        </nav>
+        <a href="login.html" class="btn-get-started-link">
+            <button class="btn-get-started">Get Started</button>
+        </a>
+    </header>
+
+    <main class="container">
+
+        <section class="hero-carousel" id="hero-section">
+            <div id="carousel-track">
+            </div>
+            <div class="carousel-dots" id="carousel-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </section>
+
+        <div class="content-layout">
+            <aside class="sidebar">
+                <div class="filter-group">
+                    <h3>🏦 Bank Category</h3>
+                    <label><input type="checkbox" class="category-filter" value="public" checked> Public Sector</label>
+                    <label><input type="checkbox" class="category-filter" value="private" checked> Private
+                        Sector</label>
+                    <label><input type="checkbox" class="category-filter" value="small-finance" checked> Small Finance
+                        Banks</label>
+                </div>
+
+                <div class="filter-group">
+                    <h3>Investment Type</h3>
+                    <label><input type="radio" name="invest-type" value="fd" checked> FD</label>
+                    <label><input type="radio" name="invest-type" value="rd"> RD</label>
+                    <label><input type="radio" name="invest-type" value="mf"> Mutual Funds</label>
+                </div>
+            </aside>
+
+            <section class="bank-list-section">
+                <div class="list-header">
+                    <h2 id="bank-count-text">Showing 6 Trusted Banks</h2>
+                    <span class="sort-by">Sort by: <strong>Highest Rate</strong></span>
+                </div>
+                <div id="bank-cards-container">
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footerBottom">
+            <p>© 2026 FinScout. All rights reserved. Bank interest rate data shown on this website is collected from the
+                official websites of the respective banks.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

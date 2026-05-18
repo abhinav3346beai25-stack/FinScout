@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICICI Bank - Hum Hai Na!</title>
+    <link rel="stylesheet" href="icici.css">
+
+</head>
+
+<body>
+
+    <header class="sticky-header">
+        <div class="back-btn-wrapper">
+            <a href="#" onclick="goBack(); return false;" class="back-btn">
+                &larr; Back
+            </a>
+        </div>
+        <div class="container header-container">
+            <div class="logo-area">
+                <img src="imgicici.jpeg" alt="ICICI Logo" class="logo-image">
+            </div>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#about">Your Bank</a></li>
+                    <li><a href="#programs">Investments</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <script>
+    function goBack() {
+    if (history.length > 1) {
+        history.back();
+    } else {
+        window.location.href = "banks.html";
+    }
+}
+    </script>
+
+    <main>
+
+        <div class="top-separator"></div>
+
+        <section id="about" class="about-section">
+            <div class="container about-container">
+                <div class="about-image-wrapper">
+                    <img src="ICIC.jpeg" alt="ICICI HQ" class="about-image">
+                </div>
+
+                <div class="about-content">
+                    <span class="section-subtitle">Hum Hai Na!</span>
+                    <h2 class="section-title">Your Bank. <br>Your Way.</h2>
+                    <p>
+                        <strong>ICICI Bank</strong> - India's largest private and second largest overall bank. Serving
+                        **50+ million customers** with cutting-edge digital banking and personalized wealth solutions.
+                    </p>
+                    <p>
+                        Pioneers of retail banking, we offer everything from industry-leading credit cards to
+                        comprehensive investment advisory through our <strong>iMobile app** - India's most downloaded
+                            banking app.
+                    </p>
+                    <p>
+                        With **6,000+ branches** and global presence in 17 countries, ICICI Bank brings world-class
+                        banking to every Indian household and business.
+                    </p>
+
+                    <div class="stats-row">
+                        <div class="stat-item">
+                            <h3>6,000+</h3>
+                            <span>Branches</span>
+                        </div>
+                        <div class="stat-item">
+                            <h3>16,000+</h3>
+                            <span>ATMs</span>
+                        </div>
+                        <div class="stat-item">
+                            <h3>50 Mn+</h3>
+                            <span>Customers</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="separator-container">
+            <div class="separator-line"></div>
+        </div>
+
+        <section id="programs" class="programs-section">
+            <div class="container">
+                <div class="programs-header">
+                    <span class="section-subtitle">Khushiyon Ka Account</span>
+                    <h2 class="section-title">Investment Universe</h2>
+                    <p class="section-desc">From market leaders to guaranteed returns - complete solutions for every
+                        investor.</p>
+                </div>
+
+                <div class="cards-grid">
+
+                    <div class="program-card">
+                        <div class="card-content">
+                            <div class="card-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+                                </svg>
+                            </div>
+                            <h3 class="card-title">ICICI Prudential MF</h3>
+                            <p class="card-desc">₹7 lakh crore AUM. Bluechip, Discovery, and Thematic Advantage funds.
+                                India's leading AMC.</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="info-row">
+                                <span class="info-label">AUM</span>
+                                <span class="info-value highlight">₹7 Lakh Cr</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-label">SIP Min</span>
+                                <span class="info-value">₹100</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-label">Risk</span>
+                                <span class="info-value risk-moderate">High Growth</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="program-card">
+                        <div class="card-content">
+                            <div class="card-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M6 3v15a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1z" />
+                                    <path d="M6 8h6" />
+                                    <path d="M6 12h8" />
+                                </svg>
+                            </div>
+                            <h3 class="card-title">Fixed Deposits</h3>
+                            <p class="card-desc">Online FD opening with competitive rates and flexible tenures.
+                                Additional rate for seniors.</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="info-row">
+                                <span class="info-label">Max Rate</span>
+                                <span class="info-value highlight">6.50%*</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-label">Senior +</span>
+                                <span class="info-value">0.50%</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-label">Risk</span>
+                                <span class="info-value risk-low">AAA</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="program-card">
+                        <div class="card-content">
+                            <div class="card-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                                </svg>
+                            </div>
+                            <h3 class="card-title">Recurring Deposits</h3>
+                            <p class="card-desc">₹100 minimum monthly. Auto-debit from savings account with quarterly
+                                compounding.</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="info-row">
+                                <span class="info-label">Min Monthly</span>
+                                <span class="info-value highlight">₹100</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-label">Tenure</span>
+                                <span class="info-value">6 months - 10 yrs</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-label">Risk</span>
+                                <span class="info-value risk-low">Secure</span>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 ICICI Bank Ltd. All rights reserved. <br><small>&copy;2026 Finscout All rights reserved.Bank
+                    interest rate data shown on this website is collected from the officail websites of the respective
+                    banks. </small></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

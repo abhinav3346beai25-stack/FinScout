@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punjab National Bank - India's First Swadeshi Bank</title>
+    <link rel="stylesheet" href="pnb.css">
+
+</head>
+
+<body>
+
+    <header class="sticky-header">
+        <div class="back-btn-wrapper">
+            <a href="#" onclick="goBack(); return false;" class="back-btn">
+                &larr; Back
+            </a>
+        </div>
+        <div class="container header-container">
+            <div class="logo-area">
+                <img src="pnblogo.jpeg" alt="PNB Logo" class="logo-image">
+            </div>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#about">Our Legacy</a></li>
+                    <li><a href="#programs">Investments</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <script>
+    function goBack() {
+    if (history.length > 1) {
+        history.back();
+    } else {
+        window.location.href = "banks.html";
+    }
+}
+    </script>
+
+    <main>
+
+        <div class="top-separator"></div>
+
+        <section id="about" class="about-section">
+            <div class="container about-container">
+                <div class="about-image-wrapper">
+                    <img src="PNB.jpeg" alt="PNB Corporate Office" class="about-image">
+                </div>
+
+                <div class="about-content">
+                    <span class="section-subtitle">India's First Swadeshi Bank</span>
+                    <h2 class="section-title">Trusted Since 1894. <br>Building Nation's Future.</h2>
+                    <p>
+                        Established in 1894, <strong>Punjab National Bank (PNB)</strong> is India's first Swadeshi bank.
+                        With a legacy spanning over **130 years**, PNB has been the banking partner for generations of
+                        Indian families and businesses.
+                    </p>
+                    <p>
+                        PNB proudly serves over **180 million customers** through our extensive network of **10,000+
+                        branches** and innovative digital platforms. From empowering farmers to fueling MSME growth, PNB
+                        plays a pivotal role in India's development story.
+                    </p>
+                    <p>
+                        Experience seamless banking with our PNB ONE app and enjoy the confidence of banking with a
+                        public sector giant committed to customer-first service.
+                    </p>
+
+                    <div class="stats-row">
+                        <div class="stat-item">
+                            <h3>10,000+</h3>
+                            <span>Branches Network</span>
+                        </div>
+                        <div class="stat-item">
+                            <h3>12,500+</h3>
+                            <span>ATM Network</span>
+                        </div>
+                        <div class="stat-item">
+                            <h3>180 Mn+</h3>
+                            <span>Trusted Customers</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="separator-container">
+            <div class="separator-line"></div>
+        </div>
+
+        <section id="programs" class="programs-section">
+            <div class="container">
+                <div class="programs-header">
+                    <span class="section-subtitle">Nation Building Investments</span>
+                    <h2 class="section-title">Savings & Investment Solutions</h2>
+                    <p class="section-desc">Government-backed security with competitive returns for every investment
+                        horizon.</p>
+                </div>
+
+                <div class="cards-grid">
+
+                    <div class="program-card">
+                        <div class="card-content">
+                            <div class="card-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+                                </svg>
+                            </div>
+                            <h3 class="card-title">PNB Mutual Funds</h3>
+                            <p class="card-desc">Partnered with UTI Mutual Fund. Invest in India's growth through
+                                professionally managed equity and debt schemes.</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="info-row">
+                                <span class="info-label">Expected Returns</span>
+                                <span class="info-value highlight">Market Linked</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-label">Flexibility</span>
+                                <span class="info-value">SIP / Lumpsum</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-label">Risk Profile</span>
+                                <span class="info-value risk-moderate">Moderate</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="program-card">
+                        <div class="card-content">
+                            <div class="card-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M6 3v15a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1z" />
+                                    <path d="M6 8h6" />
+                                    <path d="M6 12h8" />
+                                </svg>
+                            </div>
+                            <h3 class="card-title">Fixed Deposits</h3>
+                            <p class="card-desc">Secure your future with guaranteed returns. Choose from flexible
+                                tenures with quarterly compounding interest.</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="info-row">
+                                <span class="info-label">Interest Rate</span>
+                                <span class="info-value highlight">Up to 6.50%*</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-label">Tenure</span>
+                                <span class="info-value">7 Days - 10 Yrs</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-label">Risk Level</span>
+                                <span class="info-value risk-low">Zero Risk</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="program-card">
+                        <div class="card-content">
+                            <div class="card-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                                </svg>
+                            </div>
+                            <h3 class="card-title">Recurring Deposit</h3>
+                            <p class="card-desc">Small monthly savings grow into substantial corpus with quarterly
+                                compounding. Perfect for salaried individuals.</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="info-row">
+                                <span class="info-label">Min Deposit</span>
+                                <span class="info-value highlight">₹100/month</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-label">Compounding</span>
+                                <span class="info-value">Quarterly</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-label">Risk Level</span>
+                                <span class="info-value risk-low">Low</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Punjab National Bank. All rights reserved. <br><small>&copy;2026 Finscout All rights
+                    reserved.Bank interest rate data shown on this website is collected from the officail websites of
+                    the respective banks. </small></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
