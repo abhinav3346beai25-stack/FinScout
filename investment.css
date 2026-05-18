@@ -236,3 +236,71 @@ body.minimal-light {
     .split-layout { flex-direction: column; gap: 40px; }
     .panel-left, .panel-right { flex: 0 0 100%; width: 100%; box-sizing: border-box;}
 }
+
+/* Extra Narrow Device  */
+@media (max-width: 480px) {
+
+    .viewport-wrapper {
+        padding: 20px 12px;
+    }
+
+    .panel-left,
+    .panel-right {
+        padding: 24px 18px;
+        border-radius: 22px;
+    }
+
+    .nav-content {
+        padding: 0 14px;
+    }
+
+    .nav-links {
+        gap: 14px;
+    }
+
+    .winner-top {
+        flex-direction: column;
+        gap: 16px;
+        align-items: flex-start;
+    }
+
+    .winner-score-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .winner-metrics {
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .comp-card {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .comp-stats {
+        width: 100%;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .comp-name {
+        font-size: 14px;
+    }
+
+    .stat-box .val {
+        font-size: 15px;
+    }
+
+    .input-line input {
+        font-size: 18px;
+    }
+
+    .btn-invest {
+        width: 100%;
+        text-align: center;
+    }
+}
